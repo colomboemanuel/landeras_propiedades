@@ -1,0 +1,101 @@
+.logo{
+	width: 88px;
+	padding: 3px;
+	margin-left: 8%;
+}
+
+
+.topright {
+	height: 145px;
+	padding-left: 0%;
+	padding: 1%;
+}
+
+.item {
+	height: 600px; 
+}
+
+.links {
+	padding: 0%;
+	padding-left: 0%;
+}
+
+.sublinks {
+	padding-right: 0%;
+
+}
+
+#search{
+	position: absolute;
+	top: 50%;
+	z-index: 10000;
+}
+
+
+.form-control{
+	margin-bottom: 10px;
+}
+
+.btn-default{
+	margin-bottom: 10px;
+}
+
+.map-container{
+	height: 172px;
+}
+
+.container1 {
+	height: 100px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.nopaddingleft{
+	padding-left: 0%;
+}
+
+h1.maintitle{ 
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.company-name-container{
+	padding-left: 17px;
+}
+
+.greycolour {
+	background-color: rgb(145, 143, 143);
+	border-color: #A09191;
+	border-width:1px;
+	font-weight: bold;
+	color: white;
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#searchbar {
+	position: relative;
+	bottom: 330px;
+}
+
+.contact-content {
+	background-image: url("../images/contact_bg.jpg");
+	background-repeat: no-repeat;
+}
+
+.contact-title{
+	margin-bottom: 25px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.form-content form{
+	height: 435px;
+}
+
+.clear{
+	clear: both;
+}
