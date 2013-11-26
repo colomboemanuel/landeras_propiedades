@@ -11,34 +11,41 @@
     <script src="js/carousel.js" type="text/javascript"></script>
     <script src="js/application.js" type="text/javascript"></script>
     <script src="js/tooltip.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   </head>
   <body>
   <div class="container">
-     <div class="row container1"> 
-          <div class=" col-md-5 firstrowleft">
-              <div class=" col-md-3 firstrowleft">
+      <div class="row container1"> 
+        <div class=" col-md-5 firstrowleft">
+          <div class=" col-md-3 firstrowleft">
                 <img class="logo" src="./images/logolanderas.jpg">
-              </div>
-              <div class=" col-md-9 company-name-container">
+          </div>
+          <div class=" col-md-9 company-name-container">
                 <h1 class="maintittle"> LANDERAS PROPIEDADES</h1>
-              </div>
           </div>
-          <div class="col-md-7 firstrowright nopaddingleft">
-            <div class="col-md-12 buttons nopaddingleft">
-              <button type="button" class="btn btn-default greycolour">
-              BROKERS
-              </button>
-              <button type="button" class="btn btn-default greycolour">
-              SOLICITAR TASACION
-              </button>
-              <button type="button" class="btn btn-default greycolour">
-              CONTACTO
-              </button>
-              <button type="button" class="btn btn-default phone">
-              <span class="glyphicon glyphicon-phone"></span> 4221212 / 12123432
-              </button>
+        </div>
+        <div class="col-md-7 firstrowright">
+            <div class="row withheight">
             </div>
-          </div>
+            <div class="row">  
+              <div class="col-md-12 firstrowright">
+                <div class="col-md-12 buttons">
+                  <button type="button" class="btn btn-default greycolour">
+                  BROKERS
+                  </button>
+                  <button type="button" class="btn btn-default greycolour">
+                  SOLICITAR TASACION
+                  </button>
+                  <button type="button" onclick="window.location='contact.html';" class="btn btn-default greycolour">
+                    CONTACTO
+                  </button>
+                  <button type="button" class="btn btn-default phone">
+                  <span class="glyphicon glyphicon-phone"></span> 42212122 / 121234322
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>  
       </div>
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -69,7 +76,7 @@
       </a>
       </div>
       <div class="row" id="searchbar">
-        <div class="col-md-9 col-md-offset-2">
+        <div class="col-md-9 col-md-offset-2 nopaddingleft">
           <div class="btn-group">
               <button class="btn btn-large btn-lg btn-danger">VENTA</button>
               <button class="btn btn-large btn-lg btn-danger">ALQUILER</button>
@@ -106,7 +113,26 @@
           <button type="button" data-loading-text="Cargando" class="btn btn-danger btn-lg">
               BUSCAR!
           </button>
-        </div> 
-  </div>    
+        </div>
+  </div>
+        <footer>
+            <div class="row">
+              <div class= "col-md-12 footer">
+                <div class="row withheight">
+                </div>
+                <div class="col-md-7 col-md-offset-2 addressfooter">
+                  <div>
+                    <a class="addressfooter" href="">About Us </a>| 
+                    <a class="addressfooter" href=""> Oficina Central: Cordoba 1234 - Telefono: 3432432432 </a>|
+                    <a class="addressfooter" href="">Terminos y Condiciones </a> |
+                    <a class="addressfooter" href=""> Contacto </a>|
+                    <a class="addressfooter" href="">Copyright 2013 Lucas Minnisale.</a> |
+                    <a class="addressfooter" href=""> Marcelo Landeras. </a> |
+                  </div>
+                </div>
+              </div>
+            </div>
+            </footer>    
+  </div>
   </body>
 </html>

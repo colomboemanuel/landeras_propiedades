@@ -10,10 +10,11 @@
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/application.js" type="text/javascript"></script>
     <script src="js/tooltip.js" type="text/javascript"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
   </head>
   <body>
   <div class="container contact">
-     <div class="row container1"> 
+      <div class="row container1"> 
           <div class=" col-md-5 firstrowleft">
               <div class=" col-md-3 firstrowleft">
                 <img class="logo" src="./images/logolanderas.jpg">
@@ -22,27 +23,34 @@
                 <h1 class="maintittle"> LANDERAS PROPIEDADES</h1>
               </div>
           </div>
-          <div class="col-md-7 firstrowright nopaddingleft">
-            <div class="col-md-12 buttons nopaddingleft">
-              <button type="button" class="btn btn-default greycolour">
-              BROKERS
-              </button>
-              <button type="button" class="btn btn-default greycolour">
-              SOLICITAR TASACION
-              </button>
-              <button type="button" class="btn btn-default greycolour">
-              CONTACTO
-              </button>
-              <button type="button" class="btn btn-default phone">
-              <span class="glyphicon glyphicon-phone"></span> 4221212 / 12123432
-              </button>
+          <div class="col-md-7 firstrowright">
+            <div class="row withheight">
             </div>
-          </div>
+            <div class="row">  
+              <div class="col-md-12 firstrowright">
+                <div class="col-md-12 buttons">
+                  <button type="button" class="btn btn-default greycolour">
+                  BROKERS
+                  </button>
+                  <button type="button" class="btn btn-default greycolour">
+                  SOLICITAR TASACION
+                  </button>
+                  <button type="button" class="btn btn-default greycolour">
+                  CONTACTO
+                  </button>
+                  <button type="button" class="btn btn-default phone">
+                  <span class="glyphicon glyphicon-phone"></span> 42212122 / 121234322
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>  
       </div>
       <div class="col-md-12 contact-content"> 
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+        </div>
         <div class="col-md-6 form-content">
-          <h4>CONTACTO</h4>
+          <h4 class="contact_tittle">CONTACTO</h4>
           <form role="form">
             <div class="row">
               <div class="col-md-5">
@@ -56,25 +64,40 @@
                   <input type="phone" class="form-control" placeholder="Telefono">
                 </div>
               </div>
-              <div class="col-md-7 map-container">
+              <div class="col-md-7 map-container map">
                 <!-- mapa -->
+                <iframe width="290" height="160" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Mar+de+Ajo,+Buenos+Aires&amp;aq=0&amp;oq=mar+de+a&amp;sll=-38.341656,-63.28125&amp;sspn=43.667398,79.013672&amp;ie=UTF8&amp;hq=&amp;hnear=Mar+de+Ajo,+Buenos+Aires&amp;ll=-36.731178,-56.681927&amp;spn=0.022012,0.038581&amp;t=m&amp;z=14&amp;output=embed"></iframe>
               </div>
             </div>
-
             <div class="row">
               <div class="col-md-12">
                 <textarea class="form-control" rows="5" placeholder="Consulta"></textarea>
-
                 <button type="submit" class="btn btn-default">Enviar</button>
               </div>
-
             </div>
-            
           </form>
-
         </div>
-        <div class="clear"></div>
+        <div class="clear">
+        </div>
+      </div>
+      <footer>
+      <div class="row">
+        <div class= "col-md-12 footer">
+          <div class="row withheight">
+          </div>
+          <div class="col-md-7 col-md-offset-2 addressfooter">
+            <div>
+              <a class="addressfooter" href="">About Us </a>| 
+              <a class="addressfooter" href=""> Oficina Central: Cordoba 1234 - Telefono: 3432432432 </a>|
+              <a class="addressfooter" href="">Terminos y Condiciones </a> |
+              <a class="addressfooter" href=""> Contacto </a>|
+              <a class="addressfooter" href="">Copyright 2013 Lucas Minnisale.</a> |
+              <a class="addressfooter" href=""> Marcelo Landeras. </a> |
+            </div>
+          </div>
+        </div>
+      </div>
+      </footer>
     </div>
-  </div>
   </body>
 </html>

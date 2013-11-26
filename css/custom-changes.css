@@ -12,7 +12,7 @@
 }
 
 .item {
-	height: 600px; 
+	height: 474px; 
 }
 
 .links {
@@ -54,9 +54,9 @@
 	padding-left: 0%;
 }
 
-h1.maintitle{ 
-	font-weight: bold;
+h1.maintittle{ 
 	font-size: 36px;
+	font-family: sans-serif;
 }
 
 .company-name-container{
@@ -77,8 +77,11 @@ h1.maintitle{
 }
 
 #searchbar {
-	position: relative;
-	bottom: 330px;
+	position: absolute;
+	top: 337px;
+	width: 100%;
+	left: 1%;
+	padding: 8px;
 }
 
 .contact-content {
@@ -98,4 +101,20 @@ h1.maintitle{
 
 .clear{
 	clear: both;
+}
+
+.withheight {
+	height: 30px;
+}
+
+.contact_tittle{
+	font: 18px "Proximanova","Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: black;
+}
+
+.addressfooter {
+	color: grey;
+	font-family: sans-serif;
+	font-weight: 500px;
+	text-align: center;
 }
