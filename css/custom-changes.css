@@ -44,6 +44,11 @@
 	height: 172px;
 }
 
+#map{
+	border: dimgrey;
+	border-style: ridge;
+}
+
 .container1 {
 	height: 100px;
 	overflow: hidden;
@@ -107,6 +112,7 @@ h1.maintittle{
 	height: 30px;
 }
 
+
 .contact_tittle{
 	font: 18px "Proximanova","Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: black;
@@ -117,4 +123,46 @@ h1.maintittle{
 	font-family: sans-serif;
 	font-weight: 500px;
 	text-align: center;
+}
+
+.office_image {
+	background-image: url("../images/office.jpg");
+	background-repeat: no-repeat;
+	height: 474px;
+}
+
+.row .col-md-6 .col-md-6 {
+	color:white;
+	text-align: right;
+	font-family:"Proximanova","Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.blackopacity {
+	background-color: black;
+	opacity: 0.7;
+}
+
+#boss_image {
+	border: white;
+	border-style: ridge;
+}
+
+.boss_tittle {
+	text-align: center;
+}
+
+.tasacion_image {
+	background-image: url("../images/tasacion.jpg");
+	background-repeat: no-repeat;
+	height: 474px;
+}
+
+.text_tasacion {
+	color: gainsboro;
+	font-family: sans-serif;
+}
+
+#paragraph-tasacion {
+	margin-top: 0px;
+	font-size: 17px;
 }
