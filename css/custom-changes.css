@@ -166,3 +166,8 @@ h1.maintittle{
 	margin-top: 0px;
 	font-size: 17px;
 }
+
+h1 a, h1 a:hover {
+	text-decoration: none;
+	color: black;
+}
