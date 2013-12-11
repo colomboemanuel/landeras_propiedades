@@ -82,11 +82,11 @@ h1.maintittle{
 }
 
 #searchbar {
-	position: absolute;
-	top: 337px;
+	position: relative;
+	bottom: 250px;
 	width: 100%;
-	left: 1%;
-	padding: 8px;
+	right: 3%;
+	
 }
 
 .contact-content {
